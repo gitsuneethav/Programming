@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="power.js" type="text/javascript"></script>
+    <script src="reverseArray.js" type="text/javascript"></script>
+    <script src="staircase.js" type="text/javascript"></script>
+    <script src="duplicates.js" type="text/javascript"></script>
+    <script src="missing.js" type="text/javascript"></script>
+    <script src="binarySearch.js" type="text/javascript"></script>
+    <script src="rotate.js" type="text/javascript"></script>
+    <script src="sum.js" type="text/javascript"></script>
+    <title></title>
+</head>
+<body>
+    <div>----------------------------------x Power y-------------------------------------------</div>
+    <div>
+        Provide Values: <input id="x" type="text" /><input id="y" type="text" />    
+        <button onclick="power();">Power(x,y)</button><br />
+        Result: <input type="text" id="powResult"></input>
+    </div>
+    <div>----------------------------------Reverse an Array/String-------------------------------------------</div>
+    <div>
+        Provide Array: <input type="text" id="revArr" />
+        <button onclick="reverseArray();">Reverse Array</button><br />
+        Result: <input type="text" id="revResult"></input>
+    </div>
+    <div>----------------------------------Display Staircase-------------------------------------------</div>
+    <div>
+        Provide height for Staircase: <input type="text" id="height" /><button onclick="displayStaircase();">Display Staircase</button><br />
+        <div id="staircase"></div>
+    </div>
+    <div>----------------------------------Find duplicates-------------------------------------------</div>
+    <div>
+        Provide the text in which duplicates needs to be found: <input type="text" id="dupText" /><button onclick="displayDuplicates();">Display Duplicates</button><br />
+        <div id="dups"></div>
+    </div>
+    <div>----------------------------------Find the missing numbers in sequence of numbers-------------------------------------------</div>
+    <div>
+        Provide the sequence of numbers with a missing number: <input type="text" id="arrMissing" /><button onclick="displayMissing();">Display Missing Numbers</button><br />
+        <div id="missing"></div>
+    </div>
+    <div>----------------------------------Search an element in sorted array-------------------------------------------</div>
+    <div>
+        Provide the sorted and rotated array: <input type="text" id="arrSorted" /><br />
+        Provide the pivot number: <input type="text" id="key" /><button onclick="findPivot();">Find Pivot</button><br />
+        <div id="pivot"></div>
+    </div>
+    <div>----------------------------------Rotate Array-------------------------------------------</div>
+    <div>
+        Provide the array to be rotated: <input type="text" id="arrRotate" /><br />
+        Provide the number of elements to be rotated: <input type="text" id="keyrotate" /><button onclick="rotate();">Rotate</button><br />
+        <div id="rotate"></div>
+    </div>
+    <div>----------------------------------Largest Sum-------------------------------------------</div>
+    <div>
+        Provide the array : <input type="text" id="arrSum" /><button onclick="largestSum();">Find Sum</button><br />
+        <div id="sum"></div>
+    </div>
+</body>
+</html>
